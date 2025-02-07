@@ -45,10 +45,13 @@
  
 }
 .mountain {
-  position: absolute; 
-  justify-content: center;
+  position: absolute;
   bottom: 0;
-  max-width: 450px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;  
+  max-width: 450px;  
+  height: auto;  
 }
 .about {
   position: relative;
